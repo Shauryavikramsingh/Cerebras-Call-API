@@ -1,20 +1,37 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Cerebras Call API ⚡️
 
-# Run and deploy your AI Studio app
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Cerebras](https://img.shields.io/badge/Inference-Cerebras-orange)](https://cerebras.ai/)
+[![Vite](https://img.shields.io/badge/Frontend-Vite-646CFF)](https://vitejs.dev/)
 
-This contains everything you need to run your app locally.
+A streamlined implementation for calling the **Cerebras Inference API** using environment variables. This project demonstrates how to leverage the world's fastest inference engine within a modern TypeScript/Vite web application.
 
-View your app in AI Studio: https://ai.studio/apps/7d7c95b6-f2a9-4cbd-a8a4-04b0e0d07c9e
+##  Overview
 
-## Run Locally
+This repository provides a "plug-and-play" structure to integrate Cerebras LLM capabilities into your projects. It focuses on:
+- **Security:** Managing API keys safely via `.env` files.
+- **Speed:** Utilizing Cerebras' CS-3 architecture for near-instantaneous responses.
+- **Simplicity:** A clean TypeScript implementation with minimal overhead.
 
-**Prerequisites:**  Node.js
+##  Tech Stack
 
+- **Frontend:** React / Vite
+- **Language:** TypeScript
+- **Inference Engine:** Cerebras Cloud SDK
+- **Environment Management:** Dotenv
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+##  Getting Started
+
+### Prerequisites
+
+- **Node.js** (v18 or higher)
+- A **Cerebras API Key** (Get it at [Cerebras Cloud](https://cloud.cerebras.ai/))
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Shauryavikramsingh/Cerebras-Call-API.git](https://github.com/Shauryavikramsingh/Cerebras-Call-API.git)
+   cd Cerebras-Call-API
