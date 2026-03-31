@@ -1,4 +1,4 @@
-# Cerebras Call API ⚡️
+# Cerebras Call API 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Cerebras](https://img.shields.io/badge/Inference-Cerebras-orange)](https://cerebras.ai/)
