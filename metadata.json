@@ -1,0 +1,5 @@
+{
+  "name": "Cerebras Chat Explorer",
+  "description": "A chatbot interface to explore and learn about Cerebras AI's high-speed inference using your own API key.",
+  "requestFramePermissions": []
+}
