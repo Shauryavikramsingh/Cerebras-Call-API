@@ -1,5 +1,45 @@
 {
-  "name": "Cerebras Chat Explorer",
-  "description": "A chatbot interface to explore and learn about Cerebras AI's high-speed inference using your own API key.",
-  "requestFramePermissions": []
+  "name": "shaurya-vikram-singh-ai-cerebras",
+  "displayName": "Shaurya Vikram Singh | AI Developer Portfolio",
+  "description": "High-performance AI interface developed by Shaurya Vikram Singh, leveraging Cerebras for ultra-fast, decentralized inference and asset management visualization.",
+  "author": "Shaurya Vikram Singh",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "clean": "rm -rf dist",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cerebras": "^1.0.0",
+    "lucide-react": "^0.474.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "framer-motion": "^12.0.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^4.0.0",
+    "typescript": "~5.7.0",
+    "vite": "^6.0.0"
+  },
+  "keywords": [
+    "Shaurya Vikram Singh",
+    "Shaurya Vikram Singh AI",
+    "Shaurya Vikram Singh Developer",
+    "Cerebras AI",
+    "Decentralized AI",
+    "Asset Management"
+  ]
 }
